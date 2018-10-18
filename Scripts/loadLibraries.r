@@ -1,0 +1,34 @@
+# Install if necessary
+if(!is.element("FactoMineR",installed.packages())){install.packages("FactoMineR")}
+if(!is.element("plyr",installed.packages())){install.packages("plyr")}
+if(!is.element("dplyr",installed.packages())){install.packages("dplyr")}
+if(!is.element("reshape2",installed.packages())){install.packages("reshape2")}
+if(!is.element("gtools",installed.packages())){install.packages("gtools")}
+if(!is.element("zoo",installed.packages())){install.packages("zoo")}
+if(!is.element("magrittr",installed.packages())){install.packages("zoo")}
+if(!is.element("dtw",installed.packages())){install.packages("dtw")}
+if(!is.element("ggplot2",installed.packages())){install.packages("ggplot2")}
+if(!is.element("data.table",installed.packages())){install.packages("data.table")}
+if(!is.element("tuneR",installed.packages())){install.packages("tuneR")}
+if(!is.element("readxl",installed.packages())){install.packages("readxl")}
+if(!is.element("Directional",installed.packages())){install.packages("readxl")}
+if(!is.element("circular",installed.packages())){install.packages("readxl")}
+if(!is.element("entropy",installed.packages())){install.packages("entropy")}
+if(!is.element("tm",installed.packages())){install.packages("tm")}
+# Load
+library(FactoMineR)
+library(circular)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(gtools)
+library(zoo)
+library(magrittr)
+library(dtw)
+library(ggplot2)
+library(data.table)
+library(tuneR)
+library(readxl)
+library(Directional)
+library(entropy)
+library(tm)
